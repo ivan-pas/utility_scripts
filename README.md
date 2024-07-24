@@ -1,5 +1,5 @@
 # Proxmox Backup Telegram Notifications
-This script look at your backup directory if there's a file based on the regex recent more than n seconds, if it's there than send a positive message on a telegram bot, otherwise send a negative message.
+This script checks your backup directory for a file that matches a specific regex pattern and has been modified within the last n minutes. If such a file is found, the script sends a positive message to a Telegram bot. If no such file is found, it sends a negative message.
 ## Creating your personal Telegram Bot
 Open the telegram app and search for "BotFather"
 * write `/newbot`
